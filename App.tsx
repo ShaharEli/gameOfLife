@@ -128,7 +128,6 @@ const App = () => {
       </View>
       <FlatList
         columnWrapperStyle={styles.list}
-        st
         data={grid}
         numColumns={50}
         keyExtractor={(item, index) => item[index].id}
